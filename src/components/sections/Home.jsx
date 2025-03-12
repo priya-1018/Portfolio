@@ -1,4 +1,4 @@
-
+import image from "../../assets/logo.jpg"
 
 export const Home = () => {
   return (
@@ -11,7 +11,7 @@ export const Home = () => {
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right">
           <div className="flex justify-center">
            <img 
-             src="src/assets/logo.jpg" 
+             src={image}
               alt="Logo" 
              className="h-40 w-40 rounded-full shadow-lg ring-4 ring-black/30 bg-gradient-to-b from-white/10 to-transparent border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
             />
