@@ -2,6 +2,8 @@
 
 export const About = () => {
   const frontendSkills = [
+    "HTML5",
+    "CSS3",
     "React",
     "JavaScript",
     "TypeScript",
@@ -9,7 +11,7 @@ export const About = () => {
     
   ];
 
-  const backendSkills = ["Node.js", "Java", "Express.js", "MongoDB","Postgres", "MySQL"];
+  const backendSkills = ["Node.js", "Java", "Express.js", "MongoDB","Postgres", "MySQL", "Linux", "AWS", "Prisma", "VirtualBox", "Git"];
 
   return (
     <section
@@ -73,10 +75,10 @@ export const About = () => {
                   (2021-2025)
                 </li>
                 <li>
-                <strong> PUC </strong> - Kendriya Vidyalaya (2019-2021)
+                <strong> PUC </strong> - Kendriya Vidyalaya (2019-2021)  Score:<strong>90.4%</strong>
                </li>
                <li>
-                <strong> SSLC </strong> - Kendriya Vidyalaya (2018-2019)
+                <strong> SSLC </strong> - Kendriya Vidyalaya (2018-2019)  Score:<strong>92.6%</strong>
                </li>
 
               </ul>
@@ -86,8 +88,15 @@ export const About = () => {
               <div className="space-y-4 text-gray-300">
                 <div>
                   <h4 className="font-semibold">
+                  <a 
+                    href="https://drive.google.com/file/d/1TusiPZbO5hrRnN8NDhDUD9LvhzJsFOt_/view" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="hover:underline text-white-400"
+                  >
                     {" "}
                     The Complete 2024 Web Development Bootcamp | <em>Udemy.com</em>{" "}
+                    </a>
                   </h4>
                   {/* <ul  className="list-disc list-inside text-gray-300 space-y-2">
                     <li>
@@ -99,11 +108,18 @@ export const About = () => {
 
                   </ul> */}
                 </div>
-
+               
                 <div>
                   <h4 className="font-semibold">
+                  <a 
+                    href="https://drive.google.com/file/d/1TnI36KNaklwAvlsUkPrPnHLY0Hx72xhM/view?usp=drivesdk" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="hover:underline text-white-400"
+                  >
                     {" "}
                     Certification for the Completion of MySQL and PHP training | <em>IIT Bombay</em> {" "}
+                    </a>
                   </h4>
                   <ul  className="list-disc list-inside text-gray-300 space-y-2">
                     <li>
@@ -115,8 +131,15 @@ export const About = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold">
+                  <a 
+                    href="https://drive.google.com/file/d/1TTWAx2d85FNRw7ecMAtYZaZzc-NUgwSj/view?usp=drivesdk" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="hover:underline text-white-400"
+                  >
                     {" "}
                     Skill Enhancement Course- Cloud Computing | <em>VTU-Center for Online Education</em> {" "}
+                    </a>
                   </h4>
                   <ul  className="list-disc list-inside text-gray-300 space-y-2">
                     <li>
@@ -129,8 +152,15 @@ export const About = () => {
 
                 <div>
                   <h4 className="font-semibold">
+                  <a 
+                    href="https://drive.google.com/file/d/1ToX_5jYJeLyajKm71twWWUVKxFUujsZh/view?usp=drivesdk" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="hover:underline text-white-400"
+                  >
                     {" "}
                     Responsive Web Design | <em>Freecodecamp.org</em> {" "}
+                    </a>
                   </h4>
                  
                   
